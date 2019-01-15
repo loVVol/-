@@ -1,3 +1,9 @@
 # view AndroidManifest.xml #generated:22
 -keep class my.games.firstgame.MainActivity { <init>(...); }
 
+# onClick res/layout/lodingxml.xml #generated:13
+-keepclassmembers class * { *** read(...); }
+
+# onClick res/layout/lodingxml.xml #generated:20
+-keepclassmembers class * { *** write(...); }
+

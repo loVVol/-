@@ -8,8 +8,9 @@ public class GameSetting
 	//public static final int MaxLengthOfRegister=20;
 	//public static final int MinLengthOfPassword=6;
 	//public static final int MaxlengthOfPassword=20;
-	public static final String DBaddress=Environment.getExternalStorageDirectory().getPath() + "/GAME_BASE.db";
-	public static final String USERDBaddress=Environment.getExternalStorageDirectory().getPath() + "/GAME_USER.db";
+	public static final String DBaddress=Environment.getExternalStorageDirectory().getPath() + "/000/GAME_BASE.db";
+	public static final String USERDBaddress=Environment.getExternalStorageDirectory().getPath() + "/000/GAME_USER.db";
+	public static final String LOGADDRESS=Environment.getExternalStorageDirectory().getPath() + "/000/LOG.TXT";
 
 	//用户数据库
 	public static class userdb_name
@@ -47,6 +48,7 @@ public class GameSetting
 		//user_table设置
 		public static class user_table
 		{
+			
 			public static final String USERNAME="username";
 			public static final String PASSWORD="password";
 			public static final String IFNEWGAME="ifnewgame";
@@ -94,8 +96,36 @@ public class GameSetting
 			public static final String _DESCRIPTION="description";
 			public static final String _DROP_="drop";
 			public static final String _PRICE="price";
-
-
+			public static final String _ATT_MAX="att_max";
+			public static final String _ATT_MIN="att_min";
+			public static final String _ATT_UP="att_up";
+			public static final String _ATT_MP_max="att_mp_max";
+			public static final String _ATT_MP_MIN="att_mp_min";
+			public static final String _ATT_MP_UP="att_mp_up";
+			public static final String _DEF_MAX="def_max";
+			public static final String _DEF_MIN="def_min";
+			public static final String _DEF_UP="def_UP";
+			public static final String _DEF_MP_MAX="def_mp_max";
+			public static final String _DEF_MP_MIN="def_mp_min";
+			public static final String _DEF_MP_UP="def_mp_up";
+			public static final String _SPEED_MAX="speed_max";
+			public static final String _SPEED_MIN="speed_min";
+			public static final String _SPEED_UP="speed_up";
+			public static final String _SHOT_SPEED_MAX="shot_speed_max";
+			public static final String _SHOT_SPEED_MIN="shot_speed_min";
+			public static final String _SHOT_SPEED_UP="shot_speed_up";
+			public static final String _HP_MAX="hp_max";
+			public static final String _HP_MIN="hp_min";
+			public static final String _HP_UP="hp_up";
+			public static final String _MP_MAX="mp_max";
+			public static final String _MP_MIN="mp_min";
+			public static final String _MP_UP="mp_up";
+			public static final String _HEAVY_MAX="heavy_max";
+			public static final String _HEAVY_MIN="heavy_min";
+			public static final String _HEAVY_UP="heavy_up";
+			public static final String _TEARING_MAX="tearing_max";
+			public static final String _TEARING_MIN="tearing_min";
+			public static final String _TEARING_UP="tearing_up";
 
 		}
 //enemey_table
