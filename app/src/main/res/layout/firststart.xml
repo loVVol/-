@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="5"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Small Text"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:id="@+id/firststartTextView1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+		android:gravity="top|center">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="8">
+
+			<RadioGroup
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:id="@+id/firststartRadioButton1"/>
+
+				<RadioButton
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:id="@+id/firststartRadioButton2"/>
+
+			</RadioGroup>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
